@@ -1,6 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
+    activemodel (4.2.10)
+      activesupport (= 4.2.10)
+      builder (~> 3.1)
+    activerecord (4.2.10)
+      activemodel (= 4.2.10)
+      activesupport (= 4.2.10)
+      arel (~> 6.0)
+    activesupport (4.2.10)
+=======
     activemodel (5.1.5)
       activesupport (= 5.1.5)
     activerecord (5.1.5)
@@ -9,10 +19,16 @@ GEM
       arel (~> 8.0)
     activesupport (5.1.5)
       concurrent-ruby (~> 1.0, >= 1.0.2)
+>>>>>>> d9cfc58b9923e9b81f505bcf7953a2a947fb16ea
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+<<<<<<< HEAD
+    arel (6.0.4)
+    builder (3.2.3)
+=======
     arel (8.0.0)
+>>>>>>> d9cfc58b9923e9b81f505bcf7953a2a947fb16ea
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
     database_cleaner (1.6.2)
@@ -60,6 +76,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
+  activerecord (~> 4.2)
+=======
+>>>>>>> d9cfc58b9923e9b81f505bcf7953a2a947fb16ea
   database_cleaner
   pry
   rake

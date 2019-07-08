@@ -38,7 +38,6 @@ describe 'Artist Associations' do
     song.genre = genre
     song.save
     @prince.songs << song
-
     expect(@prince.genres).to include(genre)
   end
 
